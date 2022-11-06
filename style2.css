@@ -1,0 +1,123 @@
+
+.selected {
+  color: #000000;
+  text-decoration-line: underline;
+}
+
+body {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  overflow: auto;
+}
+.logo {
+  width: 100px;
+  height: auto;
+}
+.meniu {
+  display: flex;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: space-between;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.meniu h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+  }
+.text-informativ {
+  padding-top: 40%;
+}
+.titluri h3 {
+  font-weight: bolder;
+}
+hr {
+  margin: 1% 22% 1% 31%;
+}
+#hbg {
+  width: 100vw;
+  position: absolute;
+  left: calc(-50vw + 50%);
+  padding-top: 1%;
+}
+
+.book-button:hover {
+  background-color: #3389cf;
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+.book-button {
+  margin-top: 40%;
+}
+
+.main-body {
+  background-color: rgba(52, 123, 189, 0.3);
+  border-radius: 5%;
+  margin-top: 50%;
+}
+.imaginicalatorii {
+  border-radius: 10%;
+  height: 155px;
+}
+
+.row-custom {
+  padding-top: 15px;
+}
+footer {
+  background-color: rgb(29, 5, 133);
+  width: 100vw;
+  position: absolute;
+  left: calc(-50vw + 50%);
+  padding-top: 1%;
+  margin-top: 3%;
+}
+footer h1,
+p {
+  color: white;
+  text-align: center;
+}
+.link1 {
+  text-decoration: underline;
+  color: black;
+}
+.containerul-principal {
+  padding-top: 45%;
+}
+.google-maps {
+  width: auto;
+}
+.button-contact {
+  padding: 11px 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #101011;
+  border: none;
+  border-radius: 11px;
+  box-shadow: 0 4px rgb(94, 89, 89);
+  margin-top: 5px;
+}
+.button-contact:hover {
+  background-color: #202da1;
+}
+.button-contact:active {
+  background-color: #0b5fcc;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
